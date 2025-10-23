@@ -1,16 +1,57 @@
-# React + Vite
+# Jay Suryavanshi — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive personal portfolio built with React and Vite. It showcases my work, skills, education, and contact information in a clean, modern UI.
 
-Currently, two official plugins are available:
+## Features
+- **Hero** with short summary and CTAs
+- **About**, **Skills**, **Education**, **Experience**, **Projects**, **Contact** sections
+- Smooth scroll animations and themed components
+- Mobile‑first and responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React + Vite
+- Bootstrap 5, custom CSS (`src/assets/css/style.css`)
+- Font Awesome icons
 
-## React Compiler
+## Project Structure
+```
+jay-portfolio/
+├─ public/
+│  ├─ img/               # Static images
+│  └─ jay-suryavanshi-resume.pdf
+├─ src/
+│  ├─ assets/css/style.css
+│  ├─ components/        # Hero, About, Skills, Education, Experience, Projects, Contact, Navbar, Footer
+│  ├─ hooks/useScrollEffects.js
+│  ├─ App.jsx
+│  └─ main.jsx
+└─ index.html
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+```bash
+# Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+# Start dev server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Deployment
+The app is a static site. You can deploy the `dist/` folder to any static host (GitHub Pages, Netlify, Vercel, etc.).
+
+## Customize
+- Replace images in `public/img/` and update copy in `src/components/`.
+- Update resume at `public/jay-suryavanshi-resume.pdf`.
+
+## Contact
+- Email: suryavanshijay65@gmail.com
+- GitHub: https://github.com/jaysuryavanshi65
+- LinkedIn: https://www.linkedin.com/in/jay-suryavanshi-6b2217201
+

@@ -595,3 +595,31 @@ button:focus-visible, a:focus-visible, .btn:focus-visible, input:focus-visible, 
 /* Section title reveal on scroll */
 .section-title { opacity: 0; transform: translateY(12px); transition: all 0.5s ease; }
 .section-title.visible { opacity: 1; transform: translateY(0); }
+
+/* Responsive tweaks */
+@media (max-width: 991.98px) {
+  /* Reduce hero heading on tablets */
+  .hero-section h1 { font-size: 2.5rem; }
+  /* Make project thumbs slightly shorter */
+  .project-card .project-img { height: 200px; }
+  /* Reduce profile image size */
+  .profile-image-wrapper { width: 240px; height: 240px; }
+}
+
+@media (max-width: 575.98px) {
+  /* Let hero be auto height with spacing on phones */
+  .hero-section { height: auto; padding: 80px 0 40px; }
+  .hero-section h1 { font-size: 2rem; }
+  .lead { font-size: 1rem; }
+  /* Stack hero actions and make full width */
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions .btn { width: 100%; }
+  /* Further reduce profile image */
+  .profile-image-wrapper { width: 180px; height: 180px; }
+  /* Navbar brand shrink */
+  .navbar-brand { font-size: 1.25rem; }
+  /* Project image height */
+  .project-card .project-img { height: 160px; }
+  /* Improve spacing for cards/forms */
+  .contact-card { padding: 20px; }
+}

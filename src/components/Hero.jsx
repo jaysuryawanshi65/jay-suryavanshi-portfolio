@@ -7,7 +7,7 @@ export default function Hero() {
             <h1>Jay Arun Suryavanshi</h1>
             <p className="lead mb-3">Front-End Developer</p>
             <p className="text-muted mb-4">Aspiring Front-End Developer skilled in building responsive web applications using modern JavaScript frameworks. Seeking an opportunity to apply my skills in a collaborative environment and contribute to meaningful projects.</p>
-            <div className="d-flex gap-2 justify-content-center justify-content-lg-start">
+            <div className="d-flex gap-2 justify-content-center justify-content-lg-start hero-actions">
               <a href="#projects" className="btn btn-gradient btn-lg">
                 <i className="fas fa-rocket me-2"></i>View Projects
               </a>

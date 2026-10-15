@@ -33,7 +33,7 @@ export default function Experience() {
             </li>
 =======
             <div><h4 className="mb-1">Front-End Developer Intern</h4><span className="company">Techno Solution IT, Miraj</span></div>
-            <span className="duration"><i className="far fa-calendar me-1"></i>July 2023 – October 2023</span>
+            <span className="duration"><i className="far fa-calendar me-1"></i>August 2023 – October 2023</span>
           </div>
           <ul className="mb-0">
             <li>Worked on the <strong>Green Pheonix MLM Admin Module</strong>, focusing on a responsive and interactive user interface.</li>
